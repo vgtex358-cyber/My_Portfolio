@@ -1,0 +1,120 @@
+*{
+ margin: 0;
+ color: white;
+   font-family: "Montserrat", sans-serif;
+
+}
+#content{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* position: fixed; */
+    /* overflow: hidden; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+
+}
+body{
+    background-color:#001422;
+}
+#container{
+  position: relative;
+   
+  
+}
+.ellipse{
+    background-color: rgba(127, 0, 255, 1);
+     position: absolute;
+     z-index: -1;
+}
+#e1{
+    height: 330px;
+    width: 330px;
+    border-radius: 165px;
+    top: -125px;
+    left: 260px;
+    
+     
+}#e2{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    top: -68px;
+    left: -60px;
+}#e3{
+    height: 230px;
+    width: 230px;
+    border-radius: 115px;
+    bottom: -150px;
+    left: -100px;
+}
+#card{
+     width: 407px;
+    height: 522px;
+    background-color:rgba(255, 255, 255, 0.326);
+    border: 1px;
+    border-radius: 10px;
+    position: relative;
+
+}
+#inner{
+    position: absolute;
+    margin: 20px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.331);
+    border-radius: 10px;
+   
+}
+#ig{
+    width: 376px;
+    height: 207px;
+}
+.text{
+    margin: 15px 24px ;
+}
+.hearttag{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.heart img{
+   width: 20px;
+   height: 20px;
+}
+.tag{
+color: #FFD147;
+background-color:#cc98088b;
+width: 80px;
+height: 24px;
+border-radius: 8px;
+padding: 0;
+}
+.title h3{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.name{
+    font-weight: 500;
+    font-size: 12px;
+}
+.buttons{
+    height: 95px;
+    /* padding-top: 20px; */
+    margin-top: 29px;
+    background-color: transparent;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.353);
+}
+button{
+    background-color:transparent;
+    border: none;
+}
+.buttons img{
+    position: relative;
+    width: 23px;
+    height: 20px;
+}
